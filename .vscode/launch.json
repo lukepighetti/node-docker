@@ -7,13 +7,13 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Local Start",
       "program": "${workspaceFolder}/src/index.js"
     },
     {
       "type": "node",
       "request": "launch",
-      "name": "Local Nodemon",
+      "name": "Local Watch",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "watch"],
       "restart": true,
@@ -23,7 +23,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Docker Nodemon",
+      "name": "Docker Watch",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "docker"],
       "restart": true,
