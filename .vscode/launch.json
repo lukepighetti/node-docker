@@ -12,10 +12,12 @@
     },
     {
       "type": "node",
-      "request": "attach",
-      "name": "Node: Nodemon",
-      "processId": "${command:PickProcess}",
+      "request": "launch",
+      "name": "Local Nodemon",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "watch"],
       "restart": true,
+      "port": 5858,
       "protocol": "inspector"
     }
   ]
