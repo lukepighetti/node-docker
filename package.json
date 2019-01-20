@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "watch": "nodemon --watch src --inspect=0.0.0.0:5858 src/index.js",
-    "docker": "docker-compose up --build || true",
+    "docker": "docker-compose up || true",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

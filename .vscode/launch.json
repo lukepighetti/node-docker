@@ -19,6 +19,17 @@
       "restart": true,
       "port": 5858,
       "protocol": "inspector"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Docker Nodemon",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "docker"],
+      "restart": true,
+      "port": 5858,
+      "protocol": "inspector",
+      "remoteRoot": "/app"
     }
   ]
 }
